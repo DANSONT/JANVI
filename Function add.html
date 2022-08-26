@@ -1,0 +1,15 @@
+<script>
+    function add()
+    {
+        var n1 = parceInt(document.getElementById ("txtn1").value);
+        var n2 = parceInt(document.getElementById ("txtn2").value);
+           
+                   document.write(n1+n2);
+    }
+</script>
+
+<form>
+    <input type="text" id="txtn1" placeholder="Enter No.1"></br>
+    <input type="text" id="txtnm2" placeholder="Enter No.2"></br>
+    <input type="button" value="+" onclick="add()">
+</form>
